@@ -1,0 +1,113 @@
+@media screen and (max-widht: 576px) {
+
+    .point,
+    .navigasi {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.navigasi {
+    display: flex;
+    justify-content: space-between;
+    margin: 18px 22px;
+}
+
+.complete {
+    text-transform: capitalize;
+    font-weight: 600;
+    text-align: center;
+    font-size: 22px;
+}
+
+.text2 {
+    color: orange;
+}
+
+.text3>a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    padding: 10px 17px;
+    border-radius: 29px;
+    font-size: 17px;
+    transition: 0.15s;
+}
+
+.text3>a:hover {
+    background-color: grey;
+}
+
+.text3>a:active {
+    opacity: 0.8;
+}
+
+.point {
+    font-weight: 600;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.allImage {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.allImage>img {
+    scale: 1.6;
+}
+
+img {
+    width: 100px;
+    height: 50px;
+    margin-bottom: 22px;
+}
+
+.selection {
+    font-weight: 500;
+    font-size: 3rem;
+    text-transform: capitalize;
+    margin: 13%;
+    margin-bottom: 5%;
+
+}
+
+.blockSelector {
+    display: block;
+    font-size: 26px;
+    margin-bottom: 3rem;
+}
+
+#img {
+    width: 400px;
+    height: 200px
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+}
+
+#gambar {
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#gambar>img {
+    width: 100px;
+    height: 50px;
+}
